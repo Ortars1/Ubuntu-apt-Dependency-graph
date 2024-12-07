@@ -20,4 +20,5 @@
 Программа выполняется под Ubuntu, проверка работы программы проводилась с помощью WSL.
 
 Перейдите в папку с помощью cd и запустите dependency_visualizer.py с переданными аргументами: **python3 dependency_visualizer.py --package-name bash --output-file ~/workspace/Visualizer/deps.png --repository-url http://archive.ubuntu.com/ubuntu**
+
 Для запусков тестов: **python3 -m unittest test_dependency_visualizer.py** 
